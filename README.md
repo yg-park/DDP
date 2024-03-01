@@ -1,6 +1,5 @@
 # DDP(Device Driver Project)
----
-<br>
+
 # 구현한 내용
 1. 디바이스 드라이버는 입출력 다중화(Poll)와 Blocking I/O를 구현하여 처리할 데이터가 없을 시 프로세스를 대기 상태(Sleep on)로 전환하고, key interrupt 발생 시 wake up하여 준비/실행 상태로 전환하여 처리.
 
