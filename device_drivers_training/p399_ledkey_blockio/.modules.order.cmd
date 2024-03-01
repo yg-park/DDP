@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/pi_bsp/drivers/p399_ledkey_blockio/modules.order := {   echo /home/ubuntu/pi_bsp/drivers/p399_ledkey_blockio/ledkey_dev.ko; :; } > /home/ubuntu/pi_bsp/drivers/p399_ledkey_blockio/modules.order

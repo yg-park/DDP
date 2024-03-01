@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/pi_bsp/drivers/p122_modparam/ledkey_modparam.mod := printf '%s\n'   ledkey_modparam.o | awk '!x[$$0]++ { print("/home/ubuntu/pi_bsp/drivers/p122_modparam/"$$0) }' > /home/ubuntu/pi_bsp/drivers/p122_modparam/ledkey_modparam.mod

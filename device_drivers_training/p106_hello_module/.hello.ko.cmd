@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/pi_bsp/drivers/p106_hello/hello.ko := arm-linux-gnueabihf-ld -r  -EL -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/ubuntu/pi_bsp/drivers/p106_hello/hello.ko /home/ubuntu/pi_bsp/drivers/p106_hello/hello.o /home/ubuntu/pi_bsp/drivers/p106_hello/hello.mod.o;  true
