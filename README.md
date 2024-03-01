@@ -27,3 +27,6 @@ typedef struct {
 ```
 
 7. 디바이스 파일은 /dev/keyled\_dev로 만들고, 주번호는 230, 부번호는 0으로 지정.
+
+## 동작 동영상
+[device driver](https://drive.google.com/file/d/1jHIchEHq6G293caPp1Jbpnog8Gb5aTQ3/view?usp=sharing)
