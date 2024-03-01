@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/pi_bsp/drivers/ledkey_pyg/Module.symvers :=  sed 's/ko$$/o/'  /home/ubuntu/pi_bsp/drivers/ledkey_pyg/modules.order | scripts/mod/modpost -m -a    -o /home/ubuntu/pi_bsp/drivers/ledkey_pyg/Module.symvers -e -i Module.symvers -T - 
